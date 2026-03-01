@@ -37,17 +37,6 @@ export default function Nav() {
           Home
         </a>
         <a
-          href={SAFELINK_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm font-medium transition-colors duration-200"
-          style={{ color: '#a0a0a0' }}
-          onMouseEnter={e => (e.target.style.color = '#ffffff')}
-          onMouseLeave={e => (e.target.style.color = '#a0a0a0')}
-        >
-          SafeLink
-        </a>
-        <a
           href="#about"
           className="text-sm font-medium transition-colors duration-200 hidden md:block"
           style={{ color: '#a0a0a0' }}
