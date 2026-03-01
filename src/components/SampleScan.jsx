@@ -29,7 +29,7 @@ export default function SampleScan() {
         </div>
 
         {/* Screenshots grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
           {/* Primary: Phishing result */}
           <div className="flex flex-col gap-4">
@@ -71,7 +71,7 @@ export default function SampleScan() {
           </div>
 
           {/* Secondary: Safe result */}
-          <div className="flex flex-col gap-4 lg:mt-10">
+          <div className="flex flex-col gap-4">
             {/* Label */}
             <div className="flex items-center gap-2.5">
               <span
