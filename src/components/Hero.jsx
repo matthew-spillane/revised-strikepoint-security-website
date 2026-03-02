@@ -6,23 +6,6 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center px-6 pt-24 pb-20"
       style={{ backgroundColor: '#0a0a0a', overflow: 'hidden' }}
     >
-      {/* Dark red radial glow — upper left */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '-10%',
-          left: '-10%',
-          width: '60vw',
-          height: '60vw',
-          maxWidth: '700px',
-          maxHeight: '700px',
-          borderRadius: '50%',
-          background:
-            'radial-gradient(circle, rgba(232,65,42,0.12) 0%, rgba(232,65,42,0.04) 40%, transparent 70%)',
-          pointerEvents: 'none',
-        }}
-      />
-
       {/* Subtle grid texture */}
       <div
         style={{
